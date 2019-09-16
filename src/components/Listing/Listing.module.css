@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    font-size: var(--font-size-small);
+    min-width: 300px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.icon {
+    padding: var(--padding);
+    text-align: center;
+    height: 30px;
+}

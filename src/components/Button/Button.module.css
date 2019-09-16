@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    border-radius: 4px;
+    font-size: var(--font-size-small);
+    width: auto;
+    font-family: var(--font-family);
+    padding: 12px 20px;
+}
+
+.content:hover {
+    color: var(--active-color);
+}
+
+.isActive {
+    background-color: var(--border-color);
+    font-weight: 700;
+    color: var(--active-color);
+}

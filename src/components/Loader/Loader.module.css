@@ -1,0 +1,15 @@
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.icon {
+    padding: var(--padding);
+    text-align: center;
+    animation: rotate 0.6s linear infinite;
+    height: 100%;
+    max-height: 40px;
+    max-width: 40px;
+    width: 100%;
+}

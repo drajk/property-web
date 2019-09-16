@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--color);
+    font-size: var(--font-size-normal);
+    font-family: var(--font-family);
+}
+
+a {
+    color: var(--grey);
+    text-decoration: none;
+}
