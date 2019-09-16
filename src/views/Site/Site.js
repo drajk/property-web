@@ -11,7 +11,7 @@ const Site = () => (
     <BrowserRouter>
         <Suspense fallback={<Loader className="loader" />}>
             <Switch>
-                <Route path="/search/:suburb" component={Search} />
+                <Route path="/search" component={Search} />
                 <Route path="/favourites" component={Favourites} />
                 <Route path="/" component={Search} />
             </Switch>
