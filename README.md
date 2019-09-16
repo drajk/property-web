@@ -8,15 +8,23 @@ Bootstrapped with [Create React App](https://github.com/facebook/create-react-ap
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn` or `yarn install`
+
+Installs dependencies
+
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm test`
+### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 
-### `npm run build`
+### `yarn build`
 
 Builds the app for production to the `build` folder.<br>
+
+### `yarn coverage`
+
+To see code coverage.<br>
