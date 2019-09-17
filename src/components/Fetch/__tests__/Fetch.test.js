@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, act } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import axios from 'axios';
 import * as fakeResponse from '../__mocks__/mock.json';
 import Fetch from '../Fetch';
