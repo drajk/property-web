@@ -8,7 +8,7 @@ const Search = lazy(() => import('../Search/Search'));
 const Favourites = lazy(() => import('../Favourites/Favourites'));
 
 const Site = () => (
-    <BrowserRouter>
+    <BrowserRouter basename="/property-app">
         <Suspense fallback={<Loader className="loader" />}>
             <Switch>
                 <Route path="/search" component={Search} />

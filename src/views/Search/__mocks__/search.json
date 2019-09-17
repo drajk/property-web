@@ -1,0 +1,31 @@
+{
+    "data": {
+        "result": [
+            {
+                "id": "a5417c32-e60f-4cc3-b77f-5c8d6da1e286",
+                "price": "655000",
+                "address": "25 Thomas Street, Caulfield"
+            },
+            {
+                "id": "aaaacc90-972c-48b1-911e-039cd14333fe",
+                "price": "1050000",
+                "address": "12 York Street, Hawthorn"
+            },
+            {
+                "id": "4631a6b1-6e8e-4696-ab43-fc410db5b818",
+                "price": "9800000",
+                "address": "58 Station Street, Hawthorn"
+            },
+            {
+                "id": "4631a6b1-6e8e-4696-ab43-fc410db5b808",
+                "price": "8900000",
+                "address": "14 Montrose Place, Hawthorn"
+            },
+            {
+                "id": "a5417c32-e60f-4cc3-b77f-5c8d6da1e386",
+                "price": "750000",
+                "address": "668 Inkerman Road, Caulfield"
+            }
+        ]
+    }
+}
