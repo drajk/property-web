@@ -37,17 +37,12 @@ describe('Search component', () => {
         expect(listings).toHaveLength(5);
     });
 
-    it.skip('should get results from api when search text changes', () => {
-        const searchSpy = jest
-            .spyOn(Search, 'handleTextChange')
-            .mockImplementation(() => {});
-
+    it('should show loader when getting response from api', () => {
         const { getByTestId } = getWrapper();
+
         const searchBox = getByTestId('search-input');
         fireEvent.change(searchBox, { target: { value: 'hawthorn' } });
 
-        expect(searchSpy).toHaveBeenCalled(2);
-
-        Search.mockRestore();
+        expect(getByTestId('loader')).toBeTruthy();
     });
 });

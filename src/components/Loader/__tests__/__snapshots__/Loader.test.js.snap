@@ -4,6 +4,7 @@ exports[`Loader renders 1`] = `
 <img
   alt="loader"
   className="icon"
+  data-testid="loader"
   src="loader.svg"
 />
 `;
@@ -12,6 +13,7 @@ exports[`Loader renders when class is overridden 1`] = `
 <img
   alt="loader"
   className="icon loaderClass"
+  data-testid="loader"
   src="loader.svg"
 />
 `;

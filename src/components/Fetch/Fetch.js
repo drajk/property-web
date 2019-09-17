@@ -10,10 +10,10 @@ const Fetch = ({ children, url, transform }) => {
     const [state, changeState] = useState({
         data: [],
         error: null,
-        isFetching: false,
+        isFetching: true,
     });
 
-    const refresh = useDebounce(async () => {
+    const debouncedResponse = useDebounce(async () => {
         try {
             changeState({ ...state, error: null, isFetching: true });
 
@@ -33,10 +33,11 @@ const Fetch = ({ children, url, transform }) => {
         }
     }, 500);
 
-    useEffect(() => {
-        refresh();
+    useEffect(
+        () => debouncedResponse(),
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [url]);
+        [url]
+    );
 
     if (state.error && !state.isFetching) {
         return <div>Error occured {state.error}</div>;

@@ -5,7 +5,7 @@ import styles from './Loader.module.css';
 import loaderSvg from './loader.svg';
 
 const Loader = ({ className }) => (
-    <img className={cx(styles.icon, className)} src={loaderSvg} alt="loader" />
+    <img data-testid="loader" className={cx(styles.icon, className)} src={loaderSvg} alt="loader" />
 );
 
 Loader.propTypes = {
