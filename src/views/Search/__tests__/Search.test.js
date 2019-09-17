@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
 import axios from 'axios';
 
@@ -35,5 +35,19 @@ describe('Search component', () => {
 
         // assert
         expect(listings).toHaveLength(5);
+    });
+
+    it.skip('should get results from api when search text changes', () => {
+        const searchSpy = jest
+            .spyOn(Search, 'handleTextChange')
+            .mockImplementation(() => {});
+
+        const { getByTestId } = getWrapper();
+        const searchBox = getByTestId('search-input');
+        fireEvent.change(searchBox, { target: { value: 'hawthorn' } });
+
+        expect(searchSpy).toHaveBeenCalled(2);
+
+        Search.mockRestore();
     });
 });

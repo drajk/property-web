@@ -30,6 +30,7 @@ const Search = () => {
                 placeholder="Try Hawthorn / Caulfield"
                 value={suburb}
                 onChange={handleTextChange}
+                data-testid="search-input"
             ></Input>
             {suburb && (
                 <div className={styles.title}>

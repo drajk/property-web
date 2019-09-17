@@ -6,5 +6,5 @@ Shows a loader and allows base class to be overridden.
 
 ```html
 <Loader /> 
-<Loader className="fancyClass" />
+<Loader className="loaderClass" />
 ```

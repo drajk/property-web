@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders with initial value 1`] = `
+<div
+  className="wrapper"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    type="text"
+    value="Initial Value"
+  />
+</div>
+`;
+
+exports[`Input renders with on click handler 1`] = `
+<div
+  className="wrapper"
+>
+  <span
+    className="placeholder"
+  >
+    Search
+  </span>
+  <input
+    className="input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Input renders with placeholder 1`] = `
+<div
+  className="wrapper"
+>
+  <span
+    className="placeholder"
+  >
+    Search
+  </span>
+  <input
+    className="input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</div>
+`;

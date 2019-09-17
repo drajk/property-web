@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders with active state 1`] = `
+<div
+  className="container"
+  onClick={[Function]}
+>
+  <span
+    className="content isActive"
+  >
+    Search
+  </span>
+</div>
+`;
+
+exports[`Button renders with active state and handler 1`] = `
+<div
+  className="container"
+  onClick={[Function]}
+>
+  <span
+    className="content isActive"
+  >
+    Search
+  </span>
+</div>
+`;
+
+exports[`Button renders with text 1`] = `
+<div
+  className="container"
+  onClick={[Function]}
+>
+  <span
+    className="content"
+  >
+    Search
+  </span>
+</div>
+`;

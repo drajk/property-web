@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listing renders with formatted price and address 1`] = `
+<div
+  className="wrapper"
+  data-testid="listing-wrapper"
+>
+  <div
+    className="content"
+  >
+    <span
+      data-testid="listing-price"
+    >
+      A$980,000
+    </span>
+    <span
+      data-testid="listing-address"
+    >
+      12 Araleun Drive, Hawthorn
+    </span>
+  </div>
+  <div
+    className="action"
+  >
+    <img
+      alt="star"
+      className="icon"
+      data-testid="listing-icon"
+      src="star.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Listing renders with on click handler 1`] = `
+<div
+  className="wrapper"
+  data-testid="listing-wrapper"
+>
+  <div
+    className="content"
+  >
+    <span
+      data-testid="listing-price"
+    >
+      A$980,000
+    </span>
+    <span
+      data-testid="listing-address"
+    >
+      12 Araleun Drive, Hawthorn
+    </span>
+  </div>
+  <div
+    className="action"
+  >
+    <img
+      alt="remove"
+      className="icon"
+      data-testid="listing-icon"
+      src="remove.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Listing renders with remove favourite icon 1`] = `
+<div
+  className="wrapper"
+  data-testid="listing-wrapper"
+>
+  <div
+    className="content"
+  >
+    <span
+      data-testid="listing-price"
+    >
+      A$980,000
+    </span>
+    <span
+      data-testid="listing-address"
+    >
+      12 Araleun Drive, Hawthorn
+    </span>
+  </div>
+  <div
+    className="action"
+  >
+    <img
+      alt="star"
+      className="icon"
+      data-testid="listing-icon"
+      src="star.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Listing renders with remove icon 1`] = `
+<div
+  className="wrapper"
+  data-testid="listing-wrapper"
+>
+  <div
+    className="content"
+  >
+    <span
+      data-testid="listing-price"
+    >
+      A$980,000
+    </span>
+    <span
+      data-testid="listing-address"
+    >
+      12 Araleun Drive, Hawthorn
+    </span>
+  </div>
+  <div
+    className="action"
+  >
+    <img
+      alt="remove"
+      className="icon"
+      data-testid="listing-icon"
+      src="remove.svg"
+    />
+  </div>
+</div>
+`;

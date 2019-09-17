@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders 1`] = `
+<img
+  alt="loader"
+  className="icon"
+  src="loader.svg"
+/>
+`;
+
+exports[`Loader renders when class is overridden 1`] = `
+<img
+  alt="loader"
+  className="icon loaderClass"
+  src="loader.svg"
+/>
+`;
